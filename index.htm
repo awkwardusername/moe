@@ -3191,7 +3191,7 @@ with recommendation on the implementation of structure and readability.</span></
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
 lang=EN-PH>MOE provides scope, control structures, function and iteration.
 Having a built in input/output, a natural process for looping and decision
-making, an unambiguous assignment operator (Åe:Åf instead of Åe=Åf), every
+making, an unambiguous assignment operator (':' instead of '='), every
 statement is straightforward.</span></p>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
@@ -3200,7 +3200,7 @@ and blocks are indicated by curly brackets. The program logic starts in an
 up-down manner, and programs are executed first in the </span><span lang=EN-PH
 style='font-family:Consolas;mso-ascii-theme-font:major-latin;mso-hansi-theme-font:
 major-latin;mso-bidi-theme-font:major-latin'>run()</span><span lang=EN-PH>
-function (like CÅfs </span><span lang=EN-PH style='font-family:Consolas;
+function (like C's </span><span lang=EN-PH style='font-family:Consolas;
 mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
 major-latin'>main()</span><span lang=EN-PH>), therefore, a </span><span
 lang=EN-PH style='font-family:Consolas;mso-ascii-theme-font:major-latin;
@@ -3226,7 +3226,7 @@ Ignore'>1.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; <
 lang=EN-PH>Getting Started</span></a></h2>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
-lang=EN-PH>As it was quoted in ÅgThe C Programming LanguageÅh, the only way to
+lang=EN-PH>As it was quoted in "The C Programming Language", the only way to
 learn a new programming language is by writing programs in it. The first
 program to write is the same for all languages</span></p>
 
@@ -3237,21 +3237,21 @@ lang=EN-PH>Print the words<o:p></o:p></span></i></p>
 Consolas;mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;
 mso-bidi-theme-font:major-latin'>hello, world<o:p></o:p></span></p>
 
-<p class=MsoNormal><span lang=EN-PH>In MOE, the program to print Åehello, worldÅf
+<p class=MsoNormal><span lang=EN-PH>In MOE, the program to print 'hello, world'
 is:</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>run()
 {</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
-style='mso-bidi-font-weight:normal'>prnt</b> Åehello, worldÅf;</span></p>
+style='mso-bidi-font-weight:normal'>prnt</b> 'hello, world';</span></p>
 
 <p class=Code style='text-indent:.5in'><span lang=EN-PH>}</span></p>
 
 <p class=Code><span lang=EN-PH><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span lang=EN-PH>NOTE: String literals in MOE are enclosed
-in single quotes. Otherwise, they arenÅft.</span></p>
+in single quotes. Otherwise, they aren't.</span></p>
 
 <h2 style='margin-left:19.5pt;text-indent:-19.5pt;mso-list:l1 level2 lfo1'><a
 name="_Toc329837395"><![if !supportLists]><span lang=EN-PH style='mso-fareast-font-family:
@@ -3315,9 +3315,9 @@ values:</span></p>
 <p class=Code><span lang=EN-PH><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
-lang=EN-PH>The program in this example is longer than the one that can print Åg</span><span
+lang=EN-PH>The program in this example is longer than the one that can print "</span><span
 class=CodeChar><span lang=EN-PH style='mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:minor-bidi'>hello, world</span></span><span lang=EN-PH>Åh,
+mso-bidi-theme-font:minor-bidi'>hello, world</span></span><span lang=EN-PH>",
 but it is not complicated. It introduces several new ideas including comments,
 declarations, variables, arithmetic expressions, loops, and output.</span></p>
 
@@ -3370,7 +3370,7 @@ lower, upper, step;</span></p>
 
 <p class=Code style='margin-left:.5in'><span lang=EN-PH><span style='mso-tab-count:
 2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
-style='mso-bidi-font-weight:normal'>prnt</b> fahr + Åe Åf + celsius;</span></p>
+style='mso-bidi-font-weight:normal'>prnt</b> fahr + ' ' + celsius;</span></p>
 
 <p class=Code style='margin-left:.5in'><span lang=EN-PH><span style='mso-tab-count:
 2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>fahr
@@ -3501,14 +3501,14 @@ actually a form of the </span><span class=CodeChar><span lang=EN-PH
 style='mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>is</span></span><span
 lang=EN-PH> conditional construct. Let us see this example which prints the
 string </span><span class=CodeChar><span lang=EN-PH style='mso-bidi-font-family:
-"Times New Roman";mso-bidi-theme-font:minor-bidi'>ÅeyesÅf</span></span><span
+"Times New Roman";mso-bidi-theme-font:minor-bidi'>'yes'</span></span><span
 lang=EN-PH> if 3 is greater than 5:</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>run()
 {</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
-style='mso-bidi-font-weight:normal'>str</b> answer : ÅeyesÅf;</span></p>
+style='mso-bidi-font-weight:normal'>str</b> answer : 'yes';</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
 style='mso-bidi-font-weight:normal'>is</b> 3 &lt; 5 ?</span></p>
@@ -3523,7 +3523,7 @@ style='mso-ansi-language:EN-US'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span lang=EN-PH>while the looping construct is formed as
 shown in this program that will print </span><span lang=EN-PH style='font-family:
-Consolas;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>ÅeyesÅf</span><span
+Consolas;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>'yes'</span><span
 lang=EN-PH> while the variable </span><span lang=EN-PH style='font-family:Consolas;
 mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>incr</span><span
 lang=EN-PH> is still less than 5:</span></p>
@@ -3535,7 +3535,7 @@ lang=EN-PH> is still less than 5:</span></p>
 style='mso-bidi-font-weight:normal'>num</b> incr : 0;</span></p>
 
 <p class=Code style='margin-left:.5in;text-indent:.5in'><b style='mso-bidi-font-weight:
-normal'><span lang=EN-PH>str</span></b><span lang=EN-PH> answer : ÅeyesÅf;</span></p>
+normal'><span lang=EN-PH>str</span></b><span lang=EN-PH> answer : 'yes';</span></p>
 
 <p class=Code style='margin-left:.5in;text-indent:.5in'><span lang=EN-PH><o:p>&nbsp;</o:p></span></p>
 
@@ -3604,7 +3604,7 @@ style='mso-bidi-font-weight:normal'>rpt</b> <b style='mso-bidi-font-weight:
 normal'>is</b> itr &lt; 10 ? {</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:5'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
-style='mso-bidi-font-weight:normal'>prnt</b> Åe*Åf;</span></p>
+style='mso-bidi-font-weight:normal'>prnt</b> '*';</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:5'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>itr
 : itr + 1;</span></p>
@@ -3648,7 +3648,7 @@ style='mso-bidi-font-weight:normal'>rpt</b> <b style='mso-bidi-font-weight:
 normal'>is</b> itr &lt; 10 ? {</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:5'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
-style='mso-bidi-font-weight:normal'>prnt</b> Åe*Åf;</span></p>
+style='mso-bidi-font-weight:normal'>prnt</b> '*';</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:5'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>itr
 : itr + 1;</span></p>
@@ -3658,7 +3658,7 @@ style='mso-bidi-font-weight:normal'>prnt</b> Åe*Åf;</span></p>
 normal'>is</b> itr = 10 ? {</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:5'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
-style='mso-bidi-font-weight:normal'>prnt</b> Åe\nDONE!Åf;</span></p>
+style='mso-bidi-font-weight:normal'>prnt</b> '\nDONE!';</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:4'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</span></p>
 
@@ -3674,9 +3674,9 @@ lang=EN-PH><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
 lang=EN-PH>We can see in this example that we could add a construct functioning
-like Åe</span><span class=CodeChar><span lang=EN-PH style='mso-bidi-font-family:
+like '</span><span class=CodeChar><span lang=EN-PH style='mso-bidi-font-family:
 "Times New Roman";mso-bidi-theme-font:minor-bidi'>else</span></span><span
-lang=EN-PH>Åf from C as an otherwise-function if the condition was not met. This
+lang=EN-PH>' from C as an otherwise-function if the condition was not met. This
 is a unique feature of MOE programming language as it gives the power of an
 iterator-conditional an alternate code logic if the condition was not
 satisfied. This makes it more natural to read as the actual application for
@@ -3684,7 +3684,7 @@ real world problems can be simulated by the MOE programming language (as it was
 in this case).</span></p>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
-lang=EN-PH>As it was in C, the compiler doesnÅft care how the code would look
+lang=EN-PH>As it was in C, the compiler doesn't care how the code would look
 like, but the MOE programming language recommends using strict code constructs,
 indentation, and hierarchy. </span></p>
 
@@ -3752,7 +3752,7 @@ normal'><span lang=EN-PH>cnst num</span></b><span lang=EN-PH> STEP : 20;</span><
 
 <p class=Code style='margin-left:.5in'><span lang=EN-PH><span style='mso-tab-count:
 2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
-style='mso-bidi-font-weight:normal'>prnt</b> fahr + Åe Åf + celsius;</span></p>
+style='mso-bidi-font-weight:normal'>prnt</b> fahr + ' ' + celsius;</span></p>
 
 <p class=Code style='margin-left:.5in'><span lang=EN-PH><span style='mso-tab-count:
 2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>fahr
@@ -3822,13 +3822,13 @@ lang=EN-PH>str</span></b><span lang=EN-PH> answer;<span style='mso-tab-count:
 <p class=MsoNormal><span lang=EN-PH>This statement declares a string variable </span><span
 class=CodeChar><span lang=EN-PH style='mso-bidi-font-family:"Times New Roman";
 mso-bidi-theme-font:minor-bidi'>answer </span></span><span lang=EN-PH>which
-doesnÅft specifically need any initialized values (Note: it is for the reason
+doesn't specifically need any initialized values (Note: it is for the reason
 that declaring a string variable automatically initializes the variable. This
-only applies to lists Åe</span><span class=CodeChar><span lang=EN-PH
+only applies to lists '</span><span class=CodeChar><span lang=EN-PH
 style='mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>lst</span></span><span
-lang=EN-PH>Åf and strings Åe</span><span class=CodeChar><span lang=EN-PH
+lang=EN-PH>' and strings '</span><span class=CodeChar><span lang=EN-PH
 style='mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>str</span></span><span
-lang=EN-PH>Åf). Moving on</span></p>
+lang=EN-PH>'). Moving on</span></p>
 
 <p class=Code style='text-indent:.5in'><b style='mso-bidi-font-weight:normal'><span
 lang=EN-PH>inpt </span></b><span lang=EN-PH>answer;</span></p>
@@ -3881,7 +3881,7 @@ style='mso-tab-count:1'>&nbsp; </span></b>// declaration of the</span></p>
 style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>operands</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
-style='mso-bidi-font-weight:normal'>prnt </b>ÅeInput the dividend: Åf;</span></p>
+style='mso-bidi-font-weight:normal'>prnt </b>'Input the dividend: ';</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
 style='mso-bidi-font-weight:normal'>inpt</b> dividend;<span style='mso-tab-count:
@@ -3892,7 +3892,7 @@ indented to clarify</span></p>
 style='mso-tab-count:1'>&nbsp;&nbsp; </span>prompts</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
-style='mso-bidi-font-weight:normal'>prnt</b> ÅeInput the divisor: Åf;</span></p>
+style='mso-bidi-font-weight:normal'>prnt</b> 'Input the divisor: ';</span></p>
 
 <p class=Code><span lang=EN-PH><span style='mso-tab-count:3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b
 style='mso-bidi-font-weight:normal'>inpt</b> divisor;</span></p>
@@ -4602,7 +4602,7 @@ must be declared outside the loop region.</span></p>
 lang=EN-PH style='font-size:1.0pt;mso-bidi-font-size:11.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><span
-lang=EN-PH>As imposed, MOEÅfs reserved words cannot be used as identifiers in
+lang=EN-PH>As imposed, MOE's reserved words cannot be used as identifiers in
 variable names and function names. </span></p>
 
 <h2><a name="_Toc329837410"><span lang=EN-PH>2.4 Operators, symbols, and
@@ -5001,7 +5001,7 @@ an integral part of the language.</span></p>
   background:#EA157A;mso-background-themecolor:accent2;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal;mso-yfti-cnfc:68'><b><span lang=EN-PH
-  style='color:white;mso-themecolor:background1'>Åe<o:p></o:p></span></b></p>
+  style='color:white;mso-themecolor:background1'>'<o:p></o:p></span></b></p>
   </td>
   <td width=282 valign=top style='width:211.5pt;border:none;border-bottom:solid windowtext 2.25pt;
   background:#D8D8D8;mso-background-themecolor:background1;mso-background-themeshade:
@@ -5069,7 +5069,7 @@ an integral part of the language.</span></p>
   background:#EA157A;mso-background-themecolor:accent2;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
   text-align:center;line-height:normal;mso-yfti-cnfc:68'><b><span lang=EN-PH
-  style='color:white;mso-themecolor:background1'>\Åf<o:p></o:p></span></b></p>
+  style='color:white;mso-themecolor:background1'>\'<o:p></o:p></span></b></p>
   </td>
   <td width=282 valign=top style='width:211.5pt;border:none;border-bottom:solid windowtext 2.25pt;
   background:#D8D8D8;mso-background-themecolor:background1;mso-background-themeshade:
